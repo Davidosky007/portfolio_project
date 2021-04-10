@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu{
+  position: absolute;
+  left: 16.67%;
+  right: 16.67%;
+  top: 29.17%;
+  bottom: 70.83%;
+  border: 2px solid #acb7c3;
+}
+
+.sub_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.welcome{
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  top: 10px;
+}
