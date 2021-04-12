@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@500&display=swap');
 
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   background: #E5E5E5;
+}
+
+a{
+  text-decoration: none;
 }
 
 .main_header{
@@ -20,10 +25,10 @@
 
 .logo{
   position: absolute;
-  width: 64px;
-  height: 64px;
-  left: 25px;
-  top: 31px;
+  width: 50px;
+  height: 50px;
+  left: 12px;
+  top: 30px;
   border-radius: 50%;
   background: #4456fb;
 }
@@ -32,12 +37,12 @@
   position: absolute;
   width: 32px;
   height: 21.58px;
-  left: 16px;
-  top: 22px;
+  left: 10px;
+  top: 17px;
   font-weight: 800;
   font-style: normal;
   line-height: 105.3%;
-  font-size: 20px;
+  font-size: 17px;
   font-family: 'Poppins', sans-serif;
   text-decoration: none;
   text-align: center;
@@ -50,4 +55,78 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.nav-content{
+  position: absolute;
+    width: 224px;
+    height: 32px;
+    left: 79px;
+    top: 25px;
+    font-family: 'Sora', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 338.5%;
+    background: border-box;
+}
+
+.nav-list{
+  list-style: none;
+  display: flex;
+  background: border-box;
+  justify-content: space-between;
+
+  li{
+    background: border-box;
+    color: #fff;
+    font-family: 'Sora', sans-serif;
+    font-family: 'Sora', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 338.5%;
+  }
+}
+
+.nav-list a{
+  background: border-box;
+}
+
+.main_heading{
+  position: absolute;
+    font-family: 'Sora', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 105.3%;
+    font-style: normal;
+    height: 43px;
+    left: 28px;
+    top: 125px;
+    background: border-box;
+    color: white;
+}
+.sub_heading{
+  position: absolute;
+    font-family: 'Sora', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 105.3%;
+    width: 286px;
+    height: 29px;
+    left: 29px;
+    top: 168px;
+    background: border-box;
+    color: white;
+}
+
+.main_para{
+  position: absolute;
+  font-family: 'Sora', sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+  height: 136px;
+  left: 29px;
+  top: 214px;
+  background: border-box;
+  color: white;
 }
