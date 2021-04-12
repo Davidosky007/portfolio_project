@@ -99,7 +99,7 @@ a{
     font-style: normal;
     height: 43px;
     left: 28px;
-    top: 125px;
+    top: 139px;
     background: border-box;
     color: white;
 }
@@ -113,7 +113,7 @@ a{
     width: 286px;
     height: 29px;
     left: 29px;
-    top: 168px;
+    top: 182px;
     background: border-box;
     color: white;
 }
@@ -122,11 +122,36 @@ a{
   position: absolute;
   font-family: 'Sora', sans-serif;
   font-style: normal;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 20px;
-  height: 136px;
+  height: 82px;
   left: 29px;
-  top: 214px;
+  top: 229px;
   background: border-box;
   color: white;
+  text-overflow: inherit;
+}
+
+.social_links_main{
+  height: 104px;
+  left: 14px;
+  top: 377px;
+  background: #fff;
+  border-radius: 20px;
+  position: relative;
+  width: 293px;
+}
+
+.my_work_socials{
+  position: absolute;
+  font-family: 'Sora', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 20px;
+  font-style: normal;
+  height: 34px;
+  left: 31px;
+  top: 13px;
+  background: border-box;
+  color: #4F5461;
 }
