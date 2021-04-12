@@ -1,38 +1,60 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap");
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  background: #E5E5E5;
 }
 
-.menu {
+.main_header {
   position: absolute;
-  left: 16.67%;
-  right: 16.67%;
-  top: 29.17%;
-  bottom: 70.83%;
-  border: 2px solid #acb7c3;
+  background-image: url(./assets/main-assets/header-mobile.svg);
+  width: 100vw;
+  height: 100vh;
+  top: 0px;
+  left: 0px;
+  background-repeat: no-repeat;
 }
 
-.sub_header {
+.logo {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  left: 25px;
+  top: 31px;
+  border-radius: 50%;
+  background: #4456fb;
+}
+
+.logo-main a {
+  position: absolute;
+  width: 32px;
+  height: 21.58px;
+  left: 16px;
+  top: 22px;
+  font-weight: 800;
+  font-style: normal;
+  line-height: 105.3%;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  text-align: center;
+  margin: 0 auto;
+  color: #fff;
+  background: border-box;
+}
+
+.sub-header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 80%;
-  margin: 0 auto;
-  padding-top: 30px;
-}
-
-.welcome {
-  font-family: 'Inter', sans-serif;
-  font-size: 20px;
-  top: 10px;
 }
 /*# sourceMappingURL=style.css.map */
