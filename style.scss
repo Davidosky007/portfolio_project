@@ -143,15 +143,112 @@ a{
 }
 
 .my_work_socials{
-  position: absolute;
   font-family: 'Sora', sans-serif;
   font-size: 16px;
   font-weight: normal;
   line-height: 20px;
   font-style: normal;
   height: 34px;
-  left: 31px;
-  top: 13px;
+  left: 16px;
+  top: 12px;
   background: border-box;
   color: #4F5461;
+  position: relative;
+}
+
+.github{
+  position: absolute;
+    height: 40px;
+    left: 10px;
+    top: 43px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.social_links{
+  background: border-box;
+}
+
+.linkedin{
+  position: absolute;
+  height: 40px;
+  left: 57px;
+  top: 41px;
+  background: border-box;
+  background-color: #fff;
+}
+
+.twitter{
+  position: absolute;
+    height: 40px;
+    left: 106px;
+    top: 43px;
+    background: border-box;
+    background-color: #fff;
+}
+
+.stack-overflow{
+  position: absolute;
+  height: 43px;
+  left: 145px;
+  top: 37px;
+  background-color: #fff;
+  background: border-box;
+}
+
+.medium{
+  position: absolute;
+  height: 43px;
+  left: 194px;
+  top: 38px;
+  background: border-box;
+  background-color: #fff;
+}
+
+.angellist{
+  position: absolute;
+  height: 43px;
+  left: 243px;
+  top: 38px;
+  background-color: #fff;
+  background: border-box;
+  border-radius: 20px;
+}
+
+.portfolio_heading{
+  position: absolute;
+  height: 29px;
+  left: 28px;
+  top: 585px;
+  font-family: 'Sora', sans-serif;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 105.3%;
+  color: #4f5461;
+}
+
+.project_container1{
+  position: relative;
+    width: 273px;
+    height: 217.24px;
+    left: 25px;
+    top: 640px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(image.png);
+border: 1px solid rgba(0, 0, 0, 0.05);
+box-sizing: border-box;
+border-radius: 10px;
+}
+
+.project_name{
+  position: absolute;
+  width: 0px;
+  height: 16.09px;
+  left: 19px;
+  top: 13px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  line-height: 105.3%;
+  color: #fff;
+  font-weight: 600;
+  font-style: normal;
 }
