@@ -298,7 +298,7 @@ a {
   height: 30px;
   left: 25px;
   top: 877px;
-  width: 91px;
+  width: 96px;
   background: #4f5461;
   border-radius: 40px;
 }
@@ -315,5 +315,78 @@ a {
   line-height: 21px;
   text-align: center;
   color: #e6e9f0;
+}
+
+.tech_stack_2 {
+  position: absolute;
+  height: 30px;
+  left: 139px;
+  top: 877px;
+  width: 91px;
+  background: #4f5461;
+  border-radius: 40px;
+}
+
+.tech_name1 {
+  font-family: Poppins, sans-serif;
+  position: absolute;
+  width: 65px;
+  height: 20px;
+  left: 14px;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  top: 6px;
+  color: #e6e9f0;
+}
+
+.tech_stack_3 {
+  position: absolute;
+  height: 30px;
+  left: 245px;
+  top: 877px;
+  width: 95px;
+  background: #4f5461;
+  border-radius: 40px;
+}
+
+.tech_name2 {
+  font-family: Poppins, sans-serif;
+  position: absolute;
+  width: 90px;
+  height: 20px;
+  left: 6px;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 21px;
+  text-align: center;
+  top: 6px;
+  color: #e6e9f0;
+}
+
+.see_project_cta {
+  position: absolute;
+  width: 315px;
+  height: 59px;
+  left: 27px;
+  top: 924px;
+  background: #4456fb;
+  border-radius: 60px;
+}
+
+.cta_text {
+  position: absolute;
+  width: 254.8px;
+  height: 19px;
+  left: 30px;
+  top: 24px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 105.3%;
+  text-align: center;
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
