@@ -6,7 +6,6 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background: #E5E5E5;
 }
 
 a {
@@ -134,10 +133,10 @@ a {
   position: absolute;
   font-family: 'Sora', sans-serif;
   font-style: normal;
-  font-size: 13px;
-  line-height: 20px;
-  height: 82px;
-  left: 29px;
+  font-size: 12px;
+  line-height: 21px;
+  height: 76px;
+  left: 27px;
   top: 229px;
   background: border-box;
   color: white;
@@ -146,12 +145,12 @@ a {
 
 .social_links_main {
   height: 104px;
-  left: 14px;
-  top: 377px;
+  left: 31px;
+  top: 373px;
   background: #fff;
   border-radius: 20px;
   position: relative;
-  width: 293px;
+  width: 323px;
 }
 
 .my_work_socials {
@@ -245,9 +244,12 @@ a {
   height: 217.24px;
   left: 25px;
   top: 640px;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.15)), color-stop(98.35%, rgba(0, 0, 0, 0))), url(image.png);
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(image.png);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.15)), color-stop(98.35%, rgba(0, 0, 0, 0))), url();
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url();
   border: 1px solid rgba(0, 0, 0, 0.05);
+  background-position: center;
+  -o-object-fit: contain;
+     object-fit: contain;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 10px;
@@ -265,5 +267,53 @@ a {
   color: #fff;
   font-weight: 600;
   font-style: normal;
+  z-index: 200;
+}
+
+.project_image {
+  width: 315px;
+  height: 217.24px;
+  position: absolute;
+  left: 0px;
+  z-index: 2;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.tech_stack_main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tech_stack_1 {
+  position: absolute;
+  height: 30px;
+  left: 25px;
+  top: 877px;
+  width: 91px;
+  background: #4f5461;
+  border-radius: 40px;
+}
+
+.tech_name {
+  font-family: Poppins, sans-serif;
+  position: absolute;
+  width: 65px;
+  height: 20px;
+  left: 6px;
+  top: 5px;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #e6e9f0;
 }
 /*# sourceMappingURL=style.css.map */

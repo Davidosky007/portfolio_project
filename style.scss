@@ -6,7 +6,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: #E5E5E5;
 }
 
 a{
@@ -122,10 +121,10 @@ a{
   position: absolute;
   font-family: 'Sora', sans-serif;
   font-style: normal;
-  font-size: 13px;
-  line-height: 20px;
-  height: 82px;
-  left: 29px;
+  font-size: 12px;
+  line-height: 21px;
+  height: 76px;
+  left: 27px;
   top: 229px;
   background: border-box;
   color: white;
@@ -134,12 +133,12 @@ a{
 
 .social_links_main{
   height: 104px;
-  left: 14px;
-  top: 377px;
+  left: 31px;
+  top: 373px;
   background: #fff;
   border-radius: 20px;
   position: relative;
-  width: 293px;
+  width: 323px;
 }
 
 .my_work_socials{
@@ -233,8 +232,10 @@ a{
     height: 217.24px;
     left: 25px;
     top: 640px;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(image.png);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url();
 border: 1px solid rgba(0, 0, 0, 0.05);
+background-position: center;
+object-fit: contain;
 box-sizing: border-box;
 border-radius: 10px;
 }
@@ -251,4 +252,45 @@ border-radius: 10px;
   color: #fff;
   font-weight: 600;
   font-style: normal;
+  z-index: 200;
+}
+
+.project_image{
+  width: 315px;
+  height: 217.24px;
+  position: absolute;
+  left: 0px;
+  z-index: 2;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.tech_stack_main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tech_stack_1{
+  position: absolute;
+  height: 30px;
+  left: 25px;
+  top: 877px;
+  width: 91px;
+  background: rgb(79, 84, 97);
+  border-radius: 40px;
+}
+
+.tech_name{
+  font-family: Poppins, sans-serif;
+  position: absolute;
+  width: 65px;
+  height: 20px;
+  left: 6px;
+  top: 5px;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #e6e9f0;
 }
