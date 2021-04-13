@@ -389,4 +389,41 @@ a {
   text-align: center;
   color: #fff;
 }
+
+.project_section1 {
+  position: absolute;
+  width: 315px;
+  height: 217px;
+  left: 30px;
+  top: 1012px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.15)), color-stop(98.35%, rgba(0, 0, 0, 0))), url(image.png);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(image.png);
+  border-radius: 10px;
+}
+
+.project_name1 {
+  position: absolute;
+  width: -1px;
+  height: 42px;
+  left: 20px;
+  top: 21px;
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  color: white;
+  z-index: 99;
+}
+
+.project_image1 {
+  position: absolute;
+  width: 315px;
+  height: 217px;
+  left: 0px;
+  top: -1px;
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: 2;
+}
 /*# sourceMappingURL=style.css.map */
