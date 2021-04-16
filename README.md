@@ -13,7 +13,7 @@ My Portfolio Project
 
 ## Live Demo
 
-[Live Demo Link](https://davidobassey.netlify.app/)
+[Live Demo Link](https://davidbassey.tech/)
 
 ## Author
 
